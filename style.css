@@ -1,0 +1,117 @@
+* {
+  @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+  font-family: "Montserrat", sans-serif;
+}
+input {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+}
+input::placeholder {
+  font-size: 20px;
+}
+.succes {
+  color: transparent;
+  -webkit-text-stroke: 3px red;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+.error {
+  color: transparent;
+  -webkit-text-stroke: 3px green;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+.btn {
+  color: black;
+  background: gray;
+  padding: 20px;
+}
+.btn:hover {
+  background: black;
+  color: white;
+}
+
+.form_parent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.form_parent form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(2, 2, 42);
+  width: 70px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.red {
+  width: 70px;
+  height: 70px;
+  background: red;
+  border-radius: 50%;
+}
+.red_active{
+  background: rgb(255, 0, 0);
+  transform: scale(1.2);
+  box-shadow: 4px 4px 4px 4px red;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.orange_active{
+  background: orange;
+  transform: scale(1.2);
+  box-shadow: 4px 4px 4px 4px orange;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.green_active{
+  background: green;
+  transform: scale(1.2);
+  box-shadow: 4px 4px 4px 4px green;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.orange {
+  width: 70px;
+  height: 70px;
+  background: orange;
+  border-radius: 50%;
+}
+.green {
+  width: 70px;
+  height: 70px;
+  background: green;
+  border-radius: 50%;
+}
+.gray {
+  height: 250px;
+  width: 25px;
+  background: gray;
+}
+.opacity {
+  background: red;
+}
+.btn2 {
+  color: black;
+  background: gray;
+  width: 80%;
+  margin-top: 10px;
+  height: 20px;
+}
+.btn2:hover {
+  background: black;
+  color: white;
+}

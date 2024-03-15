@@ -1,0 +1,215 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 262px;
+    height: 349px;
+    object-fit: cover;
+}
+
+.swip {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.swip .back {
+    background: #afb2b4;
+}
+
+.swip .texts {
+    display: flex;
+    align-items: start;
+    text-align: start;
+    justify-content: start;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.heart {
+    font-size: 30px;
+    background: white;
+    border-radius: 50%;
+
+}
+
+.swip .but {
+    padding: 4px 14px;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.swip .but2 {
+    background: #38CB89;
+    padding: 4px 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ok {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+.ok {
+    --primary-color: #111;
+    --hovered-color: #c84747;
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.ok::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    left: 0;
+    bottom: -7px;
+    background: var(--primary-color);
+    height: 3px;
+    transition: 0.3s ease-out;
+}
+
+
+.ok:hover::after {
+    width: 100%;
+}
+
+.ok:hover p::before {
+    width: 100%;
+}
+
+
+
+.btn {
+    height: 50px;
+    width: 250px;
+    background: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.type1::after {
+    content: "✅ Adedd";
+    height: 40px;
+    width: 250px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(50px);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.type1::before {
+    content: "Add to cart";
+    height: 50px;
+    width: 250px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0px) scale(1.2);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.type1:focus::after {
+    transform: translateY(0) scale(1.2);
+
+}
+
+.type1:focus::before {
+    transform: translateY(-50px) scale(0) rotate(120deg);
+}
+
+@media(max-width:800px) {
+    .sim_parent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 160px;
+    }
+    .sim{
+        width: 150px;
+    }
+
+    .sim h2{
+        font-size: 15px !important;
+    }
+    .sim h4{
+        font-size: 8px !important;
+    }
+}
+
+.sim_parent {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.sim {
+    display: flex;
+    padding: 48px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    background: #d9dddf;
+
+}
+
+.sim h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #141718;
+}
+
+.sim h4 {
+    font-size: 16px;
+    color: #6C7275;
+}
