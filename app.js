@@ -104,37 +104,37 @@
 // });
 
 // for red
-setInterval(() => {
-  const red = document.querySelector(".red");
+// setInterval(() => {
+//   const red = document.querySelector(".red");
 
-  red.classList.add("red_active");
-}, 2500);
-setInterval(() => {
-  const red = document.querySelector(".red");
+//   red.classList.add("red_active");
+// }, 2500);
+// setInterval(() => {
+//   const red = document.querySelector(".red");
 
-  red.classList.remove("red_active");
-}, 3000);
+//   red.classList.remove("red_active");
+// }, 3000);
 
 // for orange
-setInterval(() => {
-  const orange = document.querySelector(".orange");
+// setInterval(() => {
+//   const orange = document.querySelector(".orange");
 
-  orange.classList.add("orange_active");
-}, 3000);
-setInterval(() => {
-  const orange = document.querySelector(".orange");
+//   orange.classList.add("orange_active");
+// }, 3000);
+// setInterval(() => {
+//   const orange = document.querySelector(".orange");
 
-  orange.classList.remove("orange_active");
-}, 3500);
+//   orange.classList.remove("orange_active");
+// }, 3500);
 
 // for green
-setInterval(() => {
-  const green = document.querySelector(".green");
+// setInterval(() => {
+//   const green = document.querySelector(".green");
 
-  green.classList.add("green_active");
-}, 3500);
-setInterval(() => {
-  const green = document.querySelector(".green");
+//   green.classList.add("green_active");
+// }, 3500);
+// setInterval(() => {
+//   const green = document.querySelector(".green");
 
-  green.classList.remove("green_active");
-}, 4500);
+//   green.classList.remove("green_active");
+// }, 4500);
